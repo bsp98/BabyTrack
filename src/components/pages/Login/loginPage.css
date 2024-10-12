@@ -1,0 +1,55 @@
+.login-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 25px;
+    border: 5px double rgb(230, 228, 228);
+    border-radius: 30px;
+    background-color: hsl(0, 19%, 94%);
+    text-align: center;
+  }
+
+  .login-container img {
+    margin: 0 auto !important;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+  }
+  .login-container .logo-container {
+    margin-bottom: 15px;
+  }
+  .login-container h1 {
+    font-size: 1.8rem;
+    font: weight 200px ;
+    color: rgb(219, 181, 111);
+    margin-bottom: 25px;
+    
+  }
+  .form-control::placeholder {
+    color: #070707;
+  }
+  .input-group-text {
+    background-color: rgb(219, 181, 111);
+  }
+
+
+  .boton-login {
+    height: 45px;
+    width: 130px;
+    padding: 6px;
+    margin: 10px;
+    color: black;
+    background-color:rgb(219, 181, 111);
+    border: solid black 2px;
+    border-radius: 0.30rem;
+    transition: background-color 0.3s, color 0.3s;
+   
+  }
+
+  .boton-login:hover {
+  
+    background-color: rgb(192, 155, 86); /* Color de fondo al pasar el mouse (puedes ajustar el color) */
+    color:  white;  /*Color del texto al pasar el mouse */
+    border: solid 2px black;
+    border-radius: 8px;
+  }
+  

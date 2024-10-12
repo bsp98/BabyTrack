@@ -1,0 +1,36 @@
+.borderContainer{
+    border: solid 2px ;
+    border-radius: 10px;
+}
+
+.container-count-events{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+}
+
+.p-totales{
+    font-size: 50px;
+    margin-left: 16px;
+    margin-top: 10px;
+
+    
+}
+
+.p{
+    font-size: 20px;
+    
+    
+}
+
+.p-contador{
+    font-size: 50px;
+    margin-left: 10px;
+    margin-top: 9px;
+    
+    
+}
+
+.img-margin{
+    margin-left: 50px;
+}

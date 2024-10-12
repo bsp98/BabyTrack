@@ -1,0 +1,22 @@
+.color-i{
+    background-color: rgb(219, 181, 111);
+    color: rgb(219, 181, 111);
+}
+
+.boton-agregar {
+    padding: 6px;
+    color: black;
+    background-color:rgb(219, 181, 111);
+    border: solid black 2px;
+    border-radius: 0.30rem;
+    transition: background-color 0.3s, color 0.3s;
+   
+  }
+
+  .boton-agregar:hover {
+  
+    background-color: rgb(192, 155, 86); /* Color de fondo al pasar el mouse (puedes ajustar el color) */
+    color:  white;  /*Color del texto al pasar el mouse */
+    border: solid 2px black;
+    border-radius: 8px;
+  }

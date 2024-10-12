@@ -1,0 +1,25 @@
+.adasboton-delete{
+    background-color:rgb(219, 181, 111) ;
+    color: black;
+    border-radius: 5px;
+}
+
+.boton-delete {
+    padding: 6px;
+    color: black;
+    background-color:rgb(219, 181, 111);
+    border: solid black 2px;
+    border-radius: 0.30rem;
+    transition: background-color 0.3s, color 0.3s;
+   
+  }
+
+  .boton-delete:hover {
+  
+    background-color: rgb(197, 105, 105); /* Color de fondo al pasar el mouse (puedes ajustar el color) */
+    color:  white;  /*Color del texto al pasar el mouse */
+    border: solid 2px black;
+    border-radius: 8px;
+  }
+
+  

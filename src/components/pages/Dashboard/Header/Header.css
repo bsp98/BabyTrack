@@ -1,0 +1,60 @@
+.bg-orange {
+    background-color: rgb(219, 181, 111);
+
+}
+.header {
+
+    width: auto; /* Asegúrate de que el header no tenga un ancho fijo que lo haga más ancho */
+    margin: 0 auto; /* Centra el header si tiene un ancho máximo */
+     /* Incluye padding y border en el ancho total del header */
+  }
+.nav-item-custom {
+    color: white;
+    /* Color del texto negro (puedes cambiarlo si lo deseas) */
+    /* padding: 0.5rem 1rem; Espaciado interno (ajusta según sea necesario) */
+    font-size: 1.25rem;
+    /* Tamaño de la tipografía (ajusta según sea necesario) */
+    border-radius: 0.25rem;
+    /* Bordes redondeados opcionales */
+    /* display: inline-block; /* Hace que el padding funcione correctamente */
+    transition: background-color 0.3s, color 0.3s;
+    /*Transición suave para cambios de color */
+}
+
+.nav-logout-custom {
+  color: rgb(212, 172, 85);
+  background-color: hsl(0, 19%, 94%);
+  border: solid black 2px;
+  border-radius: 0.30rem;
+  transition: background-color 0.3s, color 0.3s;
+ 
+}
+
+.nav-logout-custom:hover {
+  
+  background-color: rgb(108, 175, 192); /* Color de fondo al pasar el mouse (puedes ajustar el color) */
+  color:  white;  /*Color del texto al pasar el mouse */
+  border: solid 2px black;
+  border-radius: 8px;
+}
+
+.color-logout{
+  color:black ;
+ 
+  
+}
+
+.nav-item-custom:hover {
+  
+    background-color: rgb(219, 181, 111); /* Color de fondo al pasar el mouse (puedes ajustar el color) */
+    color:  black;  /*Color del texto al pasar el mouse */
+  }
+
+  .header-border{
+    border-bottom: solid rgb(176, 175, 175) 1.7px;
+  
+    border-top-left-radius : 8px  ;
+    border-top-right-radius : 8px  ;
+
+
+  }

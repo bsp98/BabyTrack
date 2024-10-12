@@ -1,0 +1,38 @@
+*{
+  scroll-behavior: smooth;
+}
+.fondo-container{
+  border: solid 10px rgb(204, 237, 246);
+  
+  background-color: rgb(204, 237, 246);
+  box-sizing: border-box;
+}
+
+
+.border-page{
+
+  border: solid 2px rgb(176, 175, 175);
+  border-radius: 10px;
+  }
+
+.border-page-footer{
+
+    border: solid 2px rgb(176, 175, 175);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+  
+.div{
+  background-color: hsl(0, 19%, 94%);  
+  /*overflow-x: hidden;*/ /* Evita el desbordamiento horizontal */
+}
+
+.footer{
+  background-color: rgb(219, 181, 111);
+  border-bottom-left-radius : 8px  ;
+  border-bottom-right-radius : 8px  ;
+
+
+}

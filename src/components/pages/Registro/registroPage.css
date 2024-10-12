@@ -1,0 +1,32 @@
+.registro-container {
+    max-width: auto;
+    margin: 50px auto;
+    padding: 25px;
+    border: 5px double rgb(230, 228, 228);
+    border-radius: 30px;
+    background-color: hsl(0, 19%, 94%);
+  
+    
+  }
+
+  .boton-registro {
+    margin-top: 20px;
+    height: 45px;
+    width: 100%;
+    
+    color: black;
+    background-color:rgb(219, 181, 111);
+    border: solid black 2px;
+    border-radius: 0.30rem;
+    transition: background-color 0.3s, color 0.3s;
+   
+  }
+
+  .boton-registro:hover {
+  
+    background-color: rgb(192, 155, 86); /* Color de fondo al pasar el mouse (puedes ajustar el color) */
+    color:  white;  /*Color del texto al pasar el mouse */
+    border: solid 2px black;
+    border-radius: 8px;
+  }
+  
